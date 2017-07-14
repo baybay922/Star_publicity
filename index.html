@@ -1,0 +1,945 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="msapplication-tap-highlight" content="no" />
+	<title>孔千千／Papa</title>
+	<link rel="stylesheet" href="css/reset.css"><!-- 全局样式   -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/index.css"><!-- 页面结构样式   -->
+	<script type="text/javascript">
+		//rem自适应字体大小方法
+		var docEl = document.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		    //设置根字体大小
+		    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+		}; 
+		//绑定浏览器缩放与加载时间
+		window.addEventListener(resizeEvt, recalc, false);
+		document.addEventListener('DOMContentLoaded', recalc, false);
+	</script>
+</head>
+<body class="l_NewScroll">
+	<section class="container">
+		<div class="pages">
+			<div class="page cover"><!--  背景图  -->
+				<div class="header">
+					<img src="img/style/logo_1@2x.png">
+				</div>
+				<div class="img_box" id="img_box">
+					<img src="img/star_bj.png" alt="">
+				</div>
+				<div class="footer">
+					<img src="img/watermark.png">
+					<p>http://www.elookin.com</p>
+				</div>
+				<div class="likes" id="likes">
+					<p class="thumbs">已点赞</p>
+				</div>			
+				<div class="follow" id="follow">
+					<p>1W</p>
+				</div>
+				<div class="music_wrapper" id="play_music"><!--  音乐  -->
+					<audio loop="" id="audios" src="data/TheForestShow.mp3" autoplay=""></audio>
+				</div>
+				<div class="stareNameBox">
+					<div class="stareName">孔千千<div class="gradient"></div></div>
+					<div class="stareenglshName">Papa</div>
+				</div>
+			</div>
+			<div class="page details">
+				<div class="wrap" id="wrap">
+		            <ul class="tabClick">
+		                <li class="active">个人详情</li>
+		                <li>代表作品</li>
+		                <li>人物小传</li>
+		                <li>从业经历</li>
+		            </ul>
+		            <div class="lineBorder">
+		                    <div class="lineDiv">
+		                    </div>
+		                </div>
+		            <div class="tabCon">
+		                <div class="tabBox">
+		                    <div class="tabList info">
+		                    	<h2>个人详情</h2>
+		                    	<dl class="suerName">
+		                    		<dd class="nameBox">
+		                    			<span class="name">孔千千</span><!--   name_man此类问男生标示  -->
+		                    			<span class="englishName">Papa</span>  
+		                    			<div class="nationality">
+		                    				<p>国籍</p>
+		                    				<p>中国</p>
+		                    			</div>
+		                    		</dd>
+		                    		<dt class="portrait">
+		                    			<img src="img/userhead.jpg" alt="">
+		                    		</dt>
+		                    	</dl>
+		                    	<ul class="info_list">
+		                    		<li>
+		                    			<p>职业</p>
+		                    			<p>演员</p>
+		                    		</li>
+		                    		<li>
+		                    			<p>生日</p>
+		                    			<p>1988年08月04日</p>
+		                    		</li>
+		                    		<li>
+		                    			<p>年龄</p>
+		                    			<p>28</p>
+		                    		</li>
+		                    		<li class="stature">
+		                    			<div>
+		                    				<span>身高</span><span>175</span>	
+		                    			</div>
+		                    			<div>
+		                    				<span>体重</span><span>65</span>
+		                    			</div>
+		                    		</li>
+		                    		<li>
+		                    			<p>常住地</p>
+		                    			<p>北京</p>
+		                    		</li>
+		                    		<li>
+		                    			<p>毕业院校</p>
+		                    			<p>中国</p>
+		                    		</li>
+		                    		<li>
+		                    			<p>爱好特长</p>
+		                    			<p><i>表演、舞蹈、唱歌、驾驶表演、舞蹈、唱歌、驾驶表演、舞蹈、唱歌、驾驶表演、舞蹈、唱歌、驾驶表演、舞蹈、唱歌、驾驶</i></p>
+		                    		</li>
+		                    	</ul>
+		                    </div>
+		                    <div class="tabList works" style="width: 100%">
+		                    	<h2>个人详情</h2>
+		                    	<div class="swiper-container representative">
+	                    	        <div class="swiper-wrapper">
+	                    	            <div class="swiper-slide">
+	                    	            	<img src="img/slide_img.jpg" alt="">
+	                    	            </div>
+	                    	            <div class="swiper-slide">
+	                    	            	<img src="img/slide_img.jpg" alt="">
+	                    	            </div>
+	                    	            <div class="swiper-slide">
+	                    	            	<img src="img/slide_img.jpg" alt="">
+	                    	            </div>
+	                    	            <div class="swiper-slide">
+	                    	            	<img src="img/slide_img.jpg" alt="">
+	                    	            </div>
+	                    	        </div>
+	                    	    </div>
+	                    	    <ul class="worksName">
+	                    	    	<li>《一代妖精》</li>
+	                    	    	<li>《一代妖精》</li>
+	                    	    	<li>《一代妖精》</li>
+	                    	    	<li>《一代妖精》</li>
+	                    	    </ul>
+		                    </div>
+		                    <div class="tabList biography">
+		                    	<h2>个人详情</h2>
+		                    	<dl class="profile">
+		                    		<dd>
+		                    			<img src="img/pics_IOS_20170412144625EBNKTIEVMJOZHEHBLM.jpeg">
+		                    		</dd>
+		                    		<dt>
+		                    			<article class="brief">
+		                    				生活中的孔千千，热爱运动，是一个长不大的邻家妹妹，向往简单，自由，纯粹的田园生活。 孔千千身上有着清新脱俗的独特气质。在《白蛇传说》中以其清新的表演风格，演出了一个灵动可爱的小妖精的角色，赢得导演程小东的认可。从程小东到高群书，从《白蛇传说》到《咒丝》再到《林海雪原》，孔千千演艺生涯中得到了知名导演的眷顾和垂青，从2005年至今已经出演了近20部影视剧，一步一个脚印踏踏实实的演好每个角色。
+		                    			</article>
+		                    		</dt>
+		                    	</dl>
+		                    </div>
+		                    <div class="tabList experience">
+		                    	<h2>个人详情</h2>
+		                    	<dl class="undergo">
+		                    		<dd>
+		                    			<img src="img/pics_IOS_20170412144625EBNKTIEVMJOZHEHBLM.jpeg">
+		                    		</dd>
+		                    		<dt class="axisBox">
+		                    			<div class="timeAxis">
+		                    				<span class="time">2016年</span>
+		                    				<ul>
+		                    					<li>10月16日，孔千千现身上海时装周，裤装帅气，黑裙优雅，造型百变。</li>
+		                    					<li>2015年加盟TVB新剧《小城大爱》，担任第一部分剧集的女主角何静宜；在新“古着”题材悬疑烧脑电影《古着店》中饰演一位温顺内向的造型师江小冰；主演悬疑都市电影《迷情公寓》参演红色经典剿匪传奇电视剧《林海雪原》。</li>
+		                    					<li>10月16日，孔千千现身上海时装周，裤装帅气，黑裙优雅，造型百变。</li>
+		                    					<li>10月16日，孔千千现身上海时装周，裤装帅气，黑裙优雅，造型百变。</li>
+		                    				</ul>
+		                    			</div>
+		                    			<div class＝"timeAxis">
+		                    				<span class="time">2015年</span>
+		                    				<ul>
+		                    					<li>10月16日，孔千千现身上海时装周，裤装帅气，黑裙优雅，造型百变。</li>
+		                    					<li>2015年加盟TVB新剧《小城大爱》，担任第一部分剧集的女主角何静宜；在新“古着”题材悬疑烧脑电影《古着店》中饰演一位温顺内向的造型师江小冰；主演悬疑都市电影《迷情公寓》参演红色经典剿匪传奇电视剧《林海雪原》。</li>
+		                    					<li>10月16日，孔千千现身上海时装周，裤装帅气，黑裙优雅，造型百变。</li>
+		                    					<li>10月16日，孔千千现身上海时装周，裤装帅气，黑裙优雅，造型百变。</li>
+		                    				</ul>
+		                    			</div>
+		                    		</dt>
+		                    	</dl>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+			</div>
+			<div class="page record">
+				<h2>履历</h2>
+				<div class="photo_box">
+					<img src="img/headeimg.png" alt="">
+				</div>
+				<ul id="accordion" class="accordion">
+					<li>						
+						<div class="link"><i class="rotateBtn"></i>参加电视剧作品(3)</div>
+						<ul class="submenu yearBox">
+							<li class="left_liner"></li>
+							<li>
+								<p class="timer">2016</p>						
+								<p>一代妖精</p>
+								<p>饰演：蝴蝶兰</p>
+								<p>导演：肖扬</p>
+							</li>
+							<li>
+								<p class="timer">2016</p>						
+								<p>一代妖精</p>
+								<p>饰演：蝴蝶兰</p>
+								<p>导演：肖扬</p>
+							</li>
+							<li>
+								<p class="timer">2016</p>						
+								<p>一代妖精</p>
+								<p>饰演：蝴蝶兰</p>
+								<p>导演：肖扬</p>
+							</li>
+							<li>
+								<p class="timer">2016</p>						
+								<p>一代妖精</p>
+								<p>饰演：蝴蝶兰</p>
+								<p>导演：肖扬</p>
+							</li>
+							<li>
+								<p class="timer">2016</p>						
+								<p>一代妖精</p>
+								<p>饰演：蝴蝶兰</p>
+								<p>导演：肖扬</p>
+							</li>
+							<li>
+								<p class="timer">2016</p>						
+								<p>一代妖精</p>
+								<p>饰演：蝴蝶兰</p>
+								<p>导演：肖扬</p>
+							</li>
+							<li>
+								<p class="timer">2016</p>						
+								<p>一代妖精</p>
+								<p>饰演：蝴蝶兰</p>
+								<p>导演：肖扬</p>
+							</li>
+						</ul>
+					</li>
+					<li>						
+						<div class="link"><i class="rotateBtn"></i>参演电影剧作品(1)</div>
+						<ul class="submenu">
+							<li class="left_liner"></li>
+							<li>
+								<p class="timer">2016</p>						
+								<p>一代妖精</p>
+								<p>饰演：蝴蝶兰</p>
+								<p>导演：肖扬</p>
+							</li>
+						</ul>
+					</li>
+					<li>						
+						<div class="link"><i class="rotateBtn"></i>导演作品</div>
+						<ul class="submenu">
+							<li class="left_liner"></li>
+						</ul>
+					</li>
+					<li>
+						<div class="link"><i class="rotateBtn"></i>音乐作品</div>
+						<ul class="submenu">
+							<li class="left_liner"></li>
+						</ul>
+					</li>
+					<li>
+						<div class="link"><i class="rotateBtn"></i>主持作品</div>
+						<ul class="submenu">
+							<li class="left_liner"></li>
+						</ul>
+					</li>
+					<li>
+						<div class="link"><i class="rotateBtn"></i>其他作品</div>
+						<ul class="submenu">
+							<li class="left_liner"></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="page video">
+				<div class="wrap2" id="wrap2">
+					<div class="liner2"></div>
+		            <ul class="tabClick2">
+		                <li class="active2">影视</li>
+		                <li>综艺</li>
+		                <li>其他</li>
+		            </ul>
+		            <div class="lineBorder2">
+		                    <div class="lineDiv2">
+		                    </div>
+		                </div>
+		            <div class="tabCon2">
+		                <div class="tabBox2">
+		                    <div class="tabList2 info">
+								<h2>视频</h2>
+								<ul class="short">
+									<li videoUrl="http://cfp.caifupad.com/zt/vedio2.mp4"><!--  视频URL赋值在li上  -->
+										<dl class="videoBox">
+											<dd>
+												<div class="fictitious">
+													<img src="img/ucenterBj2.png" alt=""><!-- 视频img  -->
+												</div>
+												<p class="playBtn"></p>
+											</dd>
+											<dt class="videoName">
+												<p>电影《十二公民》片段</p>
+												<p>饰演：大学校医</p>
+											</dt>
+										</dl>
+									</li>
+
+									<div class="clearfix"></div>
+								</ul>
+		                    </div>
+		                    <div class="tabList2 works">
+								<h2>视频</h2>
+								<ul class="short">
+									
+									<div class="clearfix"></div>
+								</ul>
+								<div class="noviode">
+									<img src="img/empty_novedio@3x.png">
+								</div>
+		                    </div>
+		                    <div class="tabList2 biography">
+								<h2>视频</h2>
+								<ul class="short">
+									
+									<div class="clearfix"></div>
+								</ul>
+								<div class="noviode">
+									<img src="img/empty_novedio@3x.png">
+								</div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+			</div>
+			<div class="page music">
+				<h2>音乐</h2>
+				<div class="audio_img_box">
+					<div class="music_box">
+						<div class="music_bj">
+							<img src="img/show_bg_music.png">
+							<img class="img_bj" src="img/tx@2x.png">
+						</div>
+						<audio id="audioplay" class="audioplay" src="" controls="controls" autoplay="autoplay">您的浏览器暂时不支持音乐播放，请升级或更换其他浏览器</audio>
+					</div>
+					<div class="mtvBox">
+						<video src="" id="mtv" class="mtv" controls="controls" autoplay="autoplay"></video>
+					</div>
+					<ul class="music_list">
+						<li datasrc="http://cfp.caifupad.com/zt/vedio2.mp4">
+							<p class="musci_name musci_name_cur">小苹果<span class="mtv">MTV</span></p>
+							<p class="character"><span>演唱者：周杰伦</span><span>词：周杰伦</span><span>曲：周杰伦</span></p>
+						</li>
+						<li datasrc="data/TheForestShow2.mp3">
+							<p class="musci_name">小苹果</p>
+							<p class="character"><span>演唱者：周杰伦</span></p>
+						</li>
+					</ul>
+					<div class="nomusci"><!--  没有音乐的时候这个盒子显示show   -->
+						暂无音乐
+					</div>
+				</div>		
+			</div>
+			<div class="page Pictures">
+				<div class="wrap3" id="wrap3">
+					<div class="liner3"></div>
+		            <ul class="tabClick3">
+		                <li class="active3">写真</li>
+		                <li>剧照</li>
+		                <li>海报</li>
+		                <li>生活</li>
+		                <li>工作</li>
+		            </ul>
+		            <div class="lineBorder3">
+		                    <div class="lineDiv3">
+		                    </div>
+		                </div>
+		            <div class="tabCon3">
+		                <div class="tabBox3">
+		                    <div class="tabList3 info">
+								<h2 class="portraits"><i class="returnBtn" id="returnBtn"></i><div class="mirror"></div><i class="array"></i></h2>
+								<ul class="pictrue_list">
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<div class="nopictrue">
+										<img src="img/empty_novedio@3x.png">
+									</div>
+								</ul>
+
+								<div class="img_listBox">
+									<ul class="img_list">
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+									</ul>
+								</div>
+								<div class="nopictrue">
+									<img src="img/empty_novedio@3x.png">
+								</div>						
+		                    </div>
+		                    <div class="tabList3 works">
+								<h2 class="portraits"><i class="returnBtn" id="returnBtn"></i><div class="stills"></div><i class="array" id="array"></i></h2>
+								<ul class="pictrue_list">
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+								</ul>
+								<div class="img_listBox">
+									<ul class="img_list">
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+									</ul>
+								</div>						
+		                    </div>
+		                    <div class="tabList3 biography">
+								<h2 class="portraits"><i class="returnBtn" id="returnBtn"></i><div class="poster"></div><i class="array" id="array"></i></h2>
+								<ul class="pictrue_list">
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+								</ul>
+								<div class="img_listBox">
+									<ul class="img_list">
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+									</ul>
+								</div>
+		                    </div>
+		                    <div class="tabList3 experience">
+								<h2 class="portraits"><i class="returnBtn" id="returnBtn"></i><div class="Life"></div><i class="array" id="array"></i></h2>
+								<ul class="pictrue_list">
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+								</ul>
+								<div class="img_listBox">
+									<ul class="img_list">
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+									</ul>
+								</div>
+		                    </div>
+		                    <div class="tabList3 experience">
+								<h2 class="portraits"><i class="returnBtn" id="returnBtn"></i><div class="work"></div><i class="array" id="array"></i></h2>
+								<ul class="pictrue_list">
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+									<li>
+										<div class="list_img_box">
+											<img src="img/list_img.png" alt="">
+											<b>16</b>
+										</div>
+										<div class="pictrue_number">
+											<p>Pictures</p>
+											<p>影棚拍摄<span>16</span>张</p>
+										</div>
+									</li>
+								</ul>
+								<div class="img_listBox">
+									<ul class="img_list">
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+										<li>
+											<img src="img/imgBox_list.png" alt="">
+										</li>
+									</ul>
+								</div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+			</div>
+			<div class="page contact">
+				<h2>联系</h2>
+				<dl class="introd">
+					<dd>
+						<img src="img/pics_IOS_20170412144625EBNKTIEVMJOZHEHBLM.jpeg">
+					</dd>
+					<dt>
+						<p class="performerName">绍宇涵</p>
+						<p class="occupation">职位：演员</p>
+					</dt>
+					<div class="Invitation">
+						<a href="tel:110">商务邀请</a>
+						<p>12000人邀请过</p>
+					</div>
+					<div class="logo">
+						<img src="img/logo_9@2x.png">
+						<p><span>></span>创建我的专介<span><</span></p>
+					</div>
+				</dl>
+				<div class="Undisclosed">
+					<div class="sigh">!</div>
+					暂未公开电话
+				</div>	
+			</div>
+		</div>
+		<div class="fixed_list" id="fixed_list"><!--  列表  -->
+			<ul class="list_data">
+				<li class="list_check"><a>封面 Cover</a></li>
+				<li><a>详情 Details</a></li>
+				<li><a>履历 Record <span>25</span></a></li>
+				<li><a>视频 Video <span>11</span></a></li>
+				<li><a>音乐 Music <span>20</span></a></li>
+				<li><a>图集 Pictures <span>106</span></a></li>
+				<li><a>联系 Contact</a></li>
+			</ul>
+			<p class="close_btn" id="close_btn">关闭目录</p>
+			<div class="download">
+				<a><img src="img/002.png"></a>
+			</div>
+		</div>		
+		<div class="Catalog" id="Catalog">
+			<img src="img/style/btn_menu2@2x.png" alt="">
+		</div>
+		<div class="fullscreen_imgBox" id="fullscreen_imgBox">
+			<div class="swiper-container Thumbnail">
+			    <div class="swiper-wrapper ThuBox">
+			        <div class="swiper-slide"><div class="swiperBox pinch-zoom"><img src="img/imgBox_list.png" alt=""></div></div>
+				    <div class="swiper-slide"><div class="swiperBox pinch-zoom"><img src="img/imgBox_list.png" alt=""></div></div>
+				    <div class="swiper-slide"><div class="swiperBox pinch-zoom"><img src="img/imgBox_list.png" alt=""></div></div>
+				    <div class="swiper-slide"><div class="swiperBox pinch-zoom"><img src="img/imgBox_list.png" alt=""></div></div>
+				    <div class="swiper-slide"><div class="swiperBox pinch-zoom"><img src="img/imgBox_list.png" alt=""></div></div>
+			    </div>
+			    <div class="w_countBox">
+					<span class="w_curCount" id="w_curCount">1</span>/
+					<span class="w_totCount aggregate"></span>
+				</div>
+			</div>
+		</div>
+		<div class="loading" id="loading">
+			<div class="loadImg"><img src="img/rotate.png"></div>
+			<div class="font">
+				<img src="img/font.png">
+			</div>
+		</div>
+
+		<div class="video_container">
+			<div class="close_video_btn"></div>
+			<video src="" controls="controls" id="Fullscreenplay" class="Fullscreenplay" autoplay="autoplay">
+				您的浏览器不支持视频播放
+			</video>
+		</div>
+	</section>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/pinchzoom.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/details.js"></script>
+	<script src="js/video.js"></script>
+	<script src="js/pictrues.js"></script>
+	<script src="js/index.js"></script>
+	<style>
+		.pinch-zoom-container{
+			width: 100%;
+			height: 100%;
+			overflow:none;
+		}
+		.swiper-slide{display: -webkit-flex;align-items: center;}
+		.swiperBox{
+			width: 100%;
+			height: auto;
+		}
+		.w_countBox{
+			position: absolute;
+			bottom: .5rem;
+			right: .5rem;
+			background: rgba(0,0,0,.5);
+			padding: .3rem .8rem;
+			z-index: 9999;
+			color: #fff;
+			border-radius: 3px;
+		}
+		.w_countBox span{
+			color: #fff;
+		}
+	</style>
+</body>
+</html>
